@@ -7,7 +7,7 @@ import HeroRight from '../../../public/Header/Hero_Right.svg'
 
 export default function Header() {
   return (
-    <header className="w-full h-[46.5rem] bg-linear-gradient-header flex justify-center items-center px-4 pb-20">
+    <header className="w-full h-[46.5rem] bg-linear-gradient flex justify-center items-center px-4 pb-20">
       <div className="max-w-[70rem] w-full">
         <div className="flex justify-between items-center">
           <Image src={Logo} alt="Logo DraftLab" className="cursor-pointer" />

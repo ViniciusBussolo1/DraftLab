@@ -4,7 +4,7 @@ import Step from '../../../public/HowItWork/Step2.svg'
 
 export default function HowItWork() {
   return (
-    <section className="w-full bg-linear-gradient-header flex justify-center items-center px-4 pt-[6.188rem] pb-[5rem]">
+    <section className="w-full bg-linear-gradient flex justify-center items-center px-4 pt-[6.188rem] pb-[5rem]">
       <div className="max-w-[70rem] w-full space-y-6">
         {/* HOW IT WORK 1 */}
         <div className="max-w-[34rem] w-full">

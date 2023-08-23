@@ -21,6 +21,8 @@ export default function FAQs() {
         <h1 className="text-5xl leading-normal font-bold text-white">
           Perguntas frequentes
         </h1>
+
+        {/* ACCORDION */}
         <Accordion.Root className="space-y-8" type="single" collapsible>
           <Accordion.Item
             id="AccordionItem"

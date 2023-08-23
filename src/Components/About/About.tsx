@@ -12,9 +12,13 @@ export default function About() {
   return (
     <section className="w-full bg-black flex justify-center items-center px-4 py-20">
       <div className="flex gap-12">
-        <Image src={ImageAbout} alt="Picture of a Person" />
+        <Image
+          src={ImageAbout}
+          alt="Picture of a Person"
+          className="max-[786px]:hidden"
+        />
 
-        <div className="w-[46rem] flex flex-col gap-[1.375rem]">
+        <div className="max-w-[46rem] w-full flex flex-col gap-[1.375rem]">
           {/* CARDS */}
           <div className="w-full grid grid-cols-2 grid-rows-2 gap-12">
             <CardAbout

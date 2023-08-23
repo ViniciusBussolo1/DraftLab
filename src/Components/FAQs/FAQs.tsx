@@ -18,7 +18,7 @@ export default function FAQs() {
   return (
     <section className="bg-black px-4 py-20 flex justify-center items-center">
       <div className="max-w-[70rem] w-full space-y-[1.875rem]">
-        <h1 className="text-5xl leading-normal font-bold text-white">
+        <h1 className="max-[375px]:text-[1.75rem] max-[744px]:text-[2rem] text-5xl leading-normal font-bold text-white">
           Perguntas frequentes
         </h1>
 
@@ -33,9 +33,9 @@ export default function FAQs() {
               id="AccordionTrigger"
               className="w-full px-4 pt-4 pb-5 border border-purple-800 rounded-lg backdrop-blur-[7.5px]"
             >
-              <div className="w-full flex justify-between items-center">
-                <div className="space-x-11">
-                  <span className="text-2xl leading-normal font-extralight text-white">
+              <div className="w-full flex justify-between items-center max-[472px]:gap-2">
+                <div className="min-[473px]:space-x-11">
+                  <span className="max-[472px]:hidden text-2xl leading-normal font-extralight text-white">
                     01
                   </span>
                   <span className="text-xl leading-normal font-medium text-white">
@@ -69,9 +69,9 @@ export default function FAQs() {
               id="AccordionTrigger"
               className="w-full px-4 pt-4 pb-5 border border-purple-800 rounded-lg backdrop-blur-[7.5px]"
             >
-              <div className="w-full flex justify-between items-center">
-                <div className="space-x-11">
-                  <span className="text-2xl leading-normal font-extralight text-white">
+              <div className="w-full flex justify-between items-center max-[472px]:gap-2">
+                <div className="min-[473px]:space-x-11">
+                  <span className="max-[472px]:hidden text-2xl leading-normal font-extralight text-white">
                     02
                   </span>
                   <span className="text-xl leading-normal font-medium text-white">
@@ -105,9 +105,9 @@ export default function FAQs() {
               id="AccordionTrigger"
               className="w-full px-4 pt-4 pb-5 border border-purple-800 rounded-lg backdrop-blur-[7.5px]"
             >
-              <div className="w-full flex justify-between items-center">
-                <div className="space-x-11">
-                  <span className="text-2xl leading-normal font-extralight text-white">
+              <div className="w-full flex justify-between items-center max-[472px]:gap-2">
+                <div className="min-[473px]:space-x-11">
+                  <span className="max-[472px]:hidden text-2xl leading-normal font-extralight text-white">
                     03
                   </span>
                   <span className="text-xl leading-normal font-medium text-white">
@@ -141,9 +141,9 @@ export default function FAQs() {
               id="AccordionTrigger"
               className="w-full px-4 pt-4 pb-5 border border-purple-800 rounded-lg backdrop-blur-[7.5px]"
             >
-              <div className="w-full flex justify-between items-center">
-                <div className="space-x-11">
-                  <span className="text-2xl leading-normal font-extralight text-white">
+              <div className="w-full flex justify-between items-center max-[472px]:gap-2">
+                <div className="min-[473px]:space-x-11">
+                  <span className="max-[472px]:hidden text-2xl leading-normal font-extralight text-white">
                     04
                   </span>
                   <span className="text-xl leading-normal font-medium text-white">
@@ -178,9 +178,9 @@ export default function FAQs() {
               id="AccordionTrigger"
               className="w-full px-4 pt-4 pb-5 border border-purple-800 rounded-lg backdrop-blur-[7.5px]"
             >
-              <div className="w-full flex justify-between items-center">
-                <div className="space-x-11">
-                  <span className="text-2xl leading-normal font-extralight text-white">
+              <div className="w-full flex justify-between items-center max-[472px]:gap-2">
+                <div className="min-[473px]:space-x-11">
+                  <span className="max-[472px]:hidden text-2xl leading-normal font-extralight text-white">
                     05
                   </span>
                   <span className="text-xl leading-normal font-medium text-white">
